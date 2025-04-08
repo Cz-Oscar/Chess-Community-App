@@ -1,58 +1,79 @@
-# ♟ Chess Community App – Aplikacja społecznościowa dla pasjonatów szachów
+# ♟ Chess Community App – A Social App for Chess Enthusiasts
 
-Projekt to aplikacja społecznościowa związana z tematyką szachów. Umożliwia on m.in. interakcję między użytkownikami, tworzenie profilu oraz komentowanie postów.
+A social mobile app centered around the world of chess. It allows users to interact with each other, create personal profiles, comment on posts, add friends, and play online chess games with friends.
 
-## 📌 Założenia funkcjonalne
+---
 
-- Możliwość rozegrania gry w szachy
-- Stworzenie lobby
-- Dołączenie do lobby
-- Możliwość dodawania postów w zakładce społeczności
-- Możliwość komentowania postów innych użytkowników
-- Możliwość reakcji na posty innych użytkowników
-- Możliwość rejestracji
-- Możliwość logowania
-- Możliwość zapamiętania użytkownika, aby nie trzeba było się logować po wyłączeniu aplikacji
-- Możliwość dodania oraz aktualizacji swojego biogramu
-- Możliwość wylogowania
-- Możliwość dodania innego użytkownika do znajomych
-- Możliwość wysyłania wiadomości do znajomych
-- Możliwość sprawdzania biogramu znajomych
+## 📌 Functional Features
 
-## 🛠 Technologie i narzędzia użyte w projekcie
+- Play online chess matches  
+- Create game lobbies  
+- Join existing lobbies  
+- Add posts in the community section  
+- Comment on other users' posts  
+- React to posts  
+- Register a new account  
+- Create and edit your profile biography  
+- Add other users as friends  
+- Send messages to friends  
+- View profiles of your friends  
 
-- **Flutter (Dart)** – Główny język programowania, wybrany ze względu na możliwość tworzenia aplikacji na wiele platform jednocześnie.
-- **Firebase** – Połączenie bazy danych z aplikacją oraz autoryzacja użytkowników w panelu rejestracji i logowania.
-- **Visual Studio Code** – Główny edytor tekstu, w którym tworzyliśmy aplikację.
-- **GitHub** – Używany do przechowywania repozytorium projektu w chmurze.
-- **Emulator telefonu** – Narzędzie do testowania aplikacji mobilnej na różnych urządzeniach.
+---
 
-## 👤 Zakres obowiązków – Oscar Czempiel
+## 🛠 Technologies and Tools Used
 
-- Integracja z bazą danych
-- Ulepszenie panelu rejestracji oraz logowania
-- Panel **Społeczność**
-- Panel **Znajomi**
-- Ulepszenia panelu **Profil**
-- Panel **Friends**
-- Możliwość komentowania postów
-- Stworzenie funkcjonalności wymiany wiadomości ze znajomymi
-- Dodawanie znajomych
+- **Flutter (Dart)** – Main development framework, chosen for its cross-platform capabilities  
+- **Firebase** – Used for backend services: database and user authentication  
+- **Visual Studio Code** – Main code editor used for the project  
+- **GitHub** – Source code version control and remote repository  
+---
 
+## 👤 Responsibilities – Oscar Czempiel
 
-🖼️ Zrzuty ekranu aplikacji
-🔐 Panel logowania
+- Firebase database integration  
+- Improving registration and login panels  
+- Implementing the **Community** panel  
+- Implementing the **Friends** panel  
+- Enhancing the **Profile** section  
+- Adding post comments  
+- Implementing the chat feature between friends  
+- Enabling friend management features  
 
-📝 Panel rejestracji
+---
 
-🏠 Panel główny
+## 🖼️ Screenshots
 
-👥 Panel społeczności (Community)
+🔐 Login Panel  
+<img src="screens/login.png" width="300"/>
 
-🙍‍♂️ Panel profilu
+📝 Registration Panel  
+<img src="screens/register.png" width="300"/>
 
-🧑‍🤝‍🧑 Panel znajomych
+🏠 Main Menu  
+<img src="screens/main_menu.png" width="300"/>
 
-💬 Chat ze znajomymi
+👥 Community Panel  
+<img src="screens/community.png" width="300"/>
 
-♟️ Lobby do gier
+🙍‍♂️ Profile Panel  
+<img src="screens/profile.png" width="300"/>
+
+🧑‍🤝‍🧑 Friends Panel  
+<img src="screens/friends.png" width="300"/>
+
+💬 Chat with Friends  
+<img src="screens/chat.png" width="300"/>
+
+🎮 Game Lobby  
+<img src="screens/lobby.png" width="300"/>
+
+♟️ Chess Game Screen  
+<img src="screens/game.png" width="300"/>
+
+---
+
+## 🚀 How to Run the Project
+
+```bash
+flutter pub get
+flutter run
