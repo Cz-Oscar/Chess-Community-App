@@ -28,16 +28,22 @@ A social mobile app centered around the world of chess. It allows users to inter
 - **GitHub** – Source code version control and remote repository  
 ---
 
-## 👤 Responsibilities – Oscar Czempiel
+## 👥 Authors
 
+This project was developed as a team collaboration.
+
+- **Oscar Czempiel** – Firebase integration, user panels, social features  
+  [LinkedIn](https://www.linkedin.com/in/oscar-czempiel/) | [GitHub](https://github.com/Cz-Oscar)
+
+**My responsibilities included:**
 - Firebase database integration  
 - Improving registration and login panels  
-- Implementing the **Community** panel  
-- Implementing the **Friends** panel  
-- Enhancing the **Profile** section  
-- Adding post comments  
+- Implementing the **Community**, **Friends**, and **Profile** panels  
+- Adding post comment functionality  
 - Implementing the chat feature between friends  
-- Enabling friend management features  
+- Enabling friend management features
+
+Other team members: [GitHub](https://github.com/Karol0114)  contributed to additional features and UI components.
 
 ---
 
@@ -78,8 +84,3 @@ A social mobile app centered around the world of chess. It allows users to inter
 flutter pub get
 flutter run
 ```
-
-Author
-👤 **Oscar Czempiel**  
-- [LinkedIn](https://www.linkedin.com/in/oscar-czempiel/)
-- [GitHub](https://github.com/Cz-Oscar)
