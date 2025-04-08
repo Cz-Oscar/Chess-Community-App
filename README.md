@@ -77,3 +77,9 @@ A social mobile app centered around the world of chess. It allows users to inter
 ```bash
 flutter pub get
 flutter run
+```
+
+Author
+👤 **Oscar Czempiel**  
+- [LinkedIn](https://www.linkedin.com/in/oscar-czempiel/)
+- [GitHub](https://github.com/Cz-Oscar)
